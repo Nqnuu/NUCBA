@@ -1,0 +1,46 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .navbar-logo {
+    margin-right: auto; /* Empuja el logo a la izquierda */
+  }
+  
+  .navbar-logo img {
+    width: 70px; /* Ajusta según el tamaño que desees */
+    height: auto;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #111;
+  }
+  
